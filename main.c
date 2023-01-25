@@ -116,6 +116,7 @@ int main() {
                            orders[i].name,
                            (float) orders[i].count * curr_dish->price);
                 }
+                order_count = 0;
                 printf("Total: %f EUR\n", sum);
                 break;
 
