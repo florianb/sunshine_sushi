@@ -77,7 +77,7 @@ int main() {
         fputs("> ", stdout); // Sendet die Zeichen "> " zur Standardausgabe
         fflush(stdout); // Erzwingt die vollständige Ausgabe des Buffers
 
-        // get_s: gibt 0 zurück wenn es einen Fehler gab
+        // gets: gibt 0 zurück wenn es einen Fehler gab
         if (gets(input) == 0) {
             puts("error: input failure.");
         }

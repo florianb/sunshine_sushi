@@ -6,3 +6,7 @@ verschiedenen Entwickler ersetzen und sich zukünftig  um die Entwicklung unsere
 **Sunshine Sushi Manager™**
 
 kümmern.
+
+---
+This is a exercise program to teach concepts around c.
+Currently the documentation is german, the program itself is in english and offers lots of chances for fixes and improvements.
