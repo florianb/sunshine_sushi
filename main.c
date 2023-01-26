@@ -11,7 +11,7 @@ struct order {
     unsigned long count;
 };
 
-// Enums legen eine "Konstante" (wie const EXIT = 0) an
+// enums create a "constant" (f.e. like const EXIT = 0)
 enum command {
     UNKNOWN = -1,
     EXIT = 0,
@@ -62,8 +62,7 @@ const dish *get_dish_by_name(char *name) {
 }
 
 int main() {
-    setbuf(stdout, 0); // Fix, damit die Ausgabe auch im Debugger funktioniert - bitte ignorieren
-
+    setbuf(stdout, 0); // fix to make the input/output work with attached debugger - please ignore this
     char input[64] = "";
     int order_count = 0;
     struct order orders[10] = {};
@@ -74,10 +73,10 @@ int main() {
     print_welcome();
 
     do {
-        fputs("> ", stdout); // Sendet die Zeichen "> " zur Standardausgabe
-        fflush(stdout); // Erzwingt die vollständige Ausgabe des Buffers
+        fputs("> ", stdout); // Sends the string "> " to the standard output
+        fflush(stdout); // Enforces the full output of the buffer
 
-        // gets: gibt 0 zurück wenn es einen Fehler gab
+        // gets: returns 0 if there occurred an error
         if (gets(input) == 0) {
             puts("error: input failure.");
         }
