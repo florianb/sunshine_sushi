@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
-project(sunhine_sushi C)
+project(sunshine_sushi C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(sunhine_sushi main.c)
+add_executable(sunshine_sushi main.c)
