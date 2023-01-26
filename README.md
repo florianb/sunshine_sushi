@@ -58,10 +58,10 @@ without closing the order.
 
 ### Show the tax on the bill
 
-Berechne den Wert in Höhe des Steueranteils von 19% und weise ihn in Form "Including 19% tax: <<Betrag>> EUR" aus.
+Berechne den Wert in Höhe des Steueranteils von 19% und weise ihn in Form "Including 19% tax: \<betrag> EUR" aus.
 Wichtig, der Steueranteil wird nicht auf den Gesamtpreis aufgeschlagen lediglich ausgewiesen.
 
-Calculate the value in the amount of 19% tax and display it in the form "Including 19% tax: <<amount>> EUR".
+Calculate the value in the amount of 19% tax and display it in the form "Including 19% tax: \<amount> EUR".
 Important, the tax portion is not added to the total price, only displayed.
 
 ### Check and correct calculation errors
@@ -78,10 +78,10 @@ Remove the programmatic limitation of the length of the order list.
 
 ### Add "add dish" command
 
-Füge ein "add dish <name> <preis>" hinzu, dass es ermöglicht zusätzliche Speisen
+Füge ein "add dish \<name> \<preis>" hinzu, dass es ermöglicht zusätzliche Speisen
 anzulegen. Für das Anlegen muss der Nutzer den Namen und den Preis der Speise
 angeben.
 
-Add an "add dish <name> <price>" that allows you to create additional dishes
+Add an "add dish \<name> \<price>" that allows you to create additional dishes
 to be created. For the creation the user must specify the name and the price of the dish.
 of the dish.
