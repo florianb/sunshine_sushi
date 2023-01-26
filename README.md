@@ -1,7 +1,7 @@
 # Willkommen!
 
-Herzlich willkommen bei der Sunshine Sushi GmbH, wir freuen uns, dass Sie unseren kürzlich an einer Fischvergiftung
-verschiedenen Entwickler ersetzen und sich zukünftig  um die Entwicklung unserer Bestellsoftware
+Herzlich Willkommen bei der Sunshine Sushi Gesellschaft, unser letzter Entwickler hat leider das Unternehmen verlassen.
+Deshalb freuen wir uns, dass Sie sich künftig um unsere Bestellsoftware
 
 **Sunshine Sushi Manager™**
 
@@ -9,10 +9,10 @@ kümmern.
 
 # Welcome!
 
-Welcome to Sunshine Sushi GmbH, we are glad that you replace our developer who recently died of fish poisoning and
-will in the future take care of the development of our ordering software
+Welcome to Sunshine Sushi Company, unfortunately our last developer has left the company.
+Therefore, we are glad that in the future you will take care of our ordering software
 
-**Sunshine Sushi Manager™**
+**Sunshine Sushi Manager™**.
 
 ---
 
