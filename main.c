@@ -25,7 +25,7 @@ const dish DISHES[] = {
 };
 
 void print_welcome() {
-    puts("\n(・3・)\n  Welcome to the fabulous sunshine sushi manager!\n");
+    puts("\n( ` 3 ´)\n  Welcome to the fabulous sunshine sushi manager!\n");
     puts("  Available commands:");
     puts("    exit                  - exits this program");
     puts("    order <number> <dish> - adds a dish to the current order");
